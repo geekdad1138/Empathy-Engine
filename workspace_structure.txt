@@ -1,0 +1,74 @@
+Folder PATH listing for volume OS
+Volume serial number is 3203-E516
+C:\USERS\DAVE\DOCUMENTS\GITHUB\EMPATHY-ENGINE
+│   .env.example
+│   emotional-core-spec.md
+│   Empathy-Engine.code-workspace
+│   interaction-models.md
+│   LICENSE
+│   main.py
+│   memory-system-spec.md
+│   mission.md
+│   persona-engine.md
+│   README.md
+│   requirements.txt
+│   testing-and-evaluation.md
+│
+├───core
+│       affective_layer.py
+│       cognition.py
+│       emotion.py
+│       empathy_loop.py
+│       __init__.py
+│
+├───data
+│   ├───emotion_models
+│   ├───training_data
+│   └───user_profiles
+├───docs
+│       api_reference.md
+│       architecture.md
+│       architecture1.md
+│       changelog.md
+│       emotional_taxonomy.md
+│       ethics_guidelines.md
+│       project-structure.md
+│       setup-install.md
+│
+├───ethics
+│       boundaries.py
+│       consent_protocols.py
+│       transparency.py
+│       __init__.py
+│
+├───interface
+│   │   main.py
+│   │   requirements.txt
+│   │
+│   ├───api
+│   │       endpoints.py
+│   │       webhooks.py
+│   │       __init__.py
+│   │
+│   ├───ui
+│   │       empathy_console.py
+│   │       visualization_tools.py
+│   │       __init__.py
+│   │
+│   └───voice
+│           sentiment_feedback.py
+│           tone_analysis.py
+│           __init__.py
+│
+├───memory
+│       emotional_context.py
+│       long_term.py
+│       short_term.py
+│       __init__.py
+│
+└───tests
+        test_affective_layer.py
+        test_cognition.py
+        test_end_to_end.py
+        test_ethics.py
+        test_memory_integration.py
